@@ -1,6 +1,5 @@
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
-import Script from "next/script";
 
 export default function Home() {
   return (
@@ -9,10 +8,10 @@ export default function Home() {
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
 
-        <Script
+        <script
           type="text/javascript"
           src="data:text/javascript;base64,CihmdW5jdGlvbiAod2luZG93LCBkb2N1bWVudCwgZWxlbWVudFRhZywgd2lkZ2V0TmFtZSwgc2NyaXB0VXJsKSB7CiAgd2luZG93WydTZW9lbGxhSlNXaWRnZXQnXSA9IHdpZGdldE5hbWU7CiAgd2luZG93W3dpZGdldE5hbWVdID0gd2luZG93W3dpZGdldE5hbWVdIHx8IGZ1bmN0aW9uICgpIHsKICAgICh3aW5kb3dbd2lkZ2V0TmFtZV0ucSA9IHdpbmRvd1t3aWRnZXROYW1lXS5xIHx8IFtdKS5wdXNoKGFyZ3VtZW50cyk7CiAgfTsKCiAgdmFyIHNjcmlwdEVsZW1lbnQgPSBkb2N1bWVudC5jcmVhdGVFbGVtZW50KGVsZW1lbnRUYWcpOwogIHZhciBmaXJzdFNjcmlwdEVsZW1lbnQgPSBkb2N1bWVudC5nZXRFbGVtZW50c0J5VGFnTmFtZShlbGVtZW50VGFnKVswXTsKICAKICBzY3JpcHRFbGVtZW50LmlkID0gd2lkZ2V0TmFtZTsKICBzY3JpcHRFbGVtZW50LnNyYyA9IHNjcmlwdFVybDsKICBzY3JpcHRFbGVtZW50LmFzeW5jID0gdHJ1ZTsKCiAgLy8gV2FpdCB1bnRpbCB0aGUgc2NyaXB0IGlzIGZ1bGx5IGxvYWRlZCBiZWZvcmUgY2FsbGluZyBpbml0CiAgc2NyaXB0RWxlbWVudC5vbmxvYWQgPSBmdW5jdGlvbigpIHsKICAgIHdpbmRvd1t3aWRnZXROYW1lXSgnaW5pdCcsICdodHRwczovL25leHQtYmxvZ3Mtb2NocmUudmVyY2VsLmFwcC0xNzM1NjM5MDI4NzcyJyk7CiAgfTtxdWVyeTsKCiAgZmlyc3RTY3JpcHRFbGVtZW50LnBhcmVudE5vZGUuaW5zZXJ0QmVmb3JlKHNjcmlwdEVsZW1lbnQsIGZpcnN0U2NyaXB0RWxlbWVudCk7Cn0pKHdpbmRvdywgZG9jdW1lbnQsICdzY3JpcHQnLCAnc2VvZWxsYScsICdodHRwczovL3Nlb2VsbGEtc3RhZ2luZy5zMy5hbWF6b25hd3MuY29tL3NjcmlwdF92MS5qcycpOwo="
-        ></Script>
+        ></script>
       </Head>
 
       <main>
